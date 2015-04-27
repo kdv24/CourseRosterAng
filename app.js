@@ -22,16 +22,19 @@ courseRoster.directive("enter", function() {
         element.bind("mouseenter", function () {
             element.addClass(attrs.enter);
         });
+        element.bind("mouseleave", function(){
+               element.removeClass(attrs.leave)
+             });
     };
 });
 
-courseRoster.directive("leave", function() {
-    return function(scope, element, attrs) {
-        element.bind("mouseleave", function(){
-        element.removeClass(attrs.enter)
-        });
-    };
-});
+// courseRoster.directive("leave", function() {
+//     return function(scope, element, attrs) {
+//         element.bind("mouseleave", function(){
+//         element.removeClass(attrs.enter)
+//         });
+//     };
+// });
 
 // courseRoster.directive("addClass", function() {
 //     return function(scope, element) {
