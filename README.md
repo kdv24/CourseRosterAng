@@ -1,11 +1,11 @@
 #Course Roster Exercise with AngularJS for Epicodus
-###Kelly de Vries & Evan Butler
+###Kelly de Vries & Liz Beacham
 
-#####April 22, 2015
+#####April 27, 2015
 
 ####Description
 
-This web app was designed to practice angular routing and nested states. It allows the user to add students to a course roster
+This web app was designed to practice writing directives in AngularJS.
 
 ####Set Up
 
@@ -16,8 +16,9 @@ This web app was designed to practice angular routing and nested states. It allo
 5. 
 ####Technologies
 
+*HTML
 *AngularJS
 *Bootstrap
-#### License MIT [MIT](https://gist.github.com/tfmertz/f59650110a594d4e226b)
+#### License MIT [MIT](https://gist.github.com/kdv24/3f10fca06a7d78d09abf)
 
-Copyright (c) 2015 Kelly de Vries & Evan Butler
+Copyright (c) 2015 Kelly de Vries & Liz Beacham
