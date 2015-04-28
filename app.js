@@ -2,12 +2,13 @@ var courseRoster = angular.module('courseRoster', ['ui.router']);
 
 courseRoster.directive("welcomeText", function () {
     return {
-        restrict: "EA",
+        // restrict: "EA",
+        // template: "<h1>Does this add an element?</h1>"
 
-        link: function(scope, element, attrs) {
-            element.text(scope.message + " " + attrs.message);
-            alert("I'm working");
-        }
+        // link: function(scope, element, attrs) {
+        //     element.text(scope.message + " " + attrs.message);
+        //     alert("I'm working");
+        // }
     };
 });
 

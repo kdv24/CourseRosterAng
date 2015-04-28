@@ -8,6 +8,8 @@
 </div>
 
 <div class="col-md-4">
+    <!-- <welcome-text></welcome-text> -->
+
   <h3 welcome-text="" message="Liz">Add a new course</h3>
   <form ng-submit="CoursesFactory.addCourse()" class="form-inline" role="form">
     <div class="form-group">
@@ -19,5 +21,10 @@
 
 <h2 welcome-texts="" message="Kelly!">When does this disappear?</h2>
 
+<div ng-controller="ChoreCtrl as choreCtrl">
+    <kid
+    done="choreCtrl.logChore(chore)">
+    </kid>
+</div>
 
 <div ui-view> </div>
